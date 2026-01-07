@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HW4 Hokie Composer</string>
+
+    <string name="section_1_title">Background Music</string>
+    <string name="section_2_title">Overlap Sound Editor</string>
+    <string name="button_text">Play</string>
+    <string name="placeholder">.</string>
+    <string name="restart_button_text">Restart</string>
+    <string-array name="songs">
+        <item>Go Tech Go!</item>
+        <item>Go Tech Go!2</item>
+        <item>Go Tech Go!3</item>
+    </string-array>
+    <string-array name="effects">
+        <item>Clapping</item>
+        <item>Cheering</item>
+        <item>Go Hokies!</item>
+    </string-array>
+</resources>
