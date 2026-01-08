@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".EditFragment">
+
+    <!-- Section 1 Title -->
+    <TextView
+        android:id="@+id/section1Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose song"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Music Selection Spinner -->
+    <Spinner
+        android:id="@+id/musicSelectionSpinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/section1Title" />
+
+    <!-- Section 2 Title -->
+    <TextView
+        android:id="@+id/section2Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose effects"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/musicSelectionSpinner" />
+
+    <!-- Sound Effect 1 Spinner -->
+    <Spinner
+        android:id="@+id/soundEffect1Spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/section2Title" />
+
+    <!-- Sound Effect 1 SeekBar -->
+    <SeekBar
+        android:id="@+id/soundEffect1SeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soundEffect1Spinner" />
+
+    <!-- Sound Effect 2 Spinner -->
+    <Spinner
+        android:id="@+id/soundEffect2Spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soundEffect1SeekBar" />
+
+    <!-- Sound Effect 2 SeekBar -->
+    <SeekBar
+        android:id="@+id/soundEffect2SeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soundEffect2Spinner" />
+
+    <!-- Sound Effect 3 Spinner -->
+    <Spinner
+        android:id="@+id/soundEffect3Spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soundEffect2SeekBar" />
+
+    <!-- Sound Effect 3 SeekBar -->
+    <SeekBar
+        android:id="@+id/soundEffect3SeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soundEffect3Spinner" />
+
+    <!-- Play Button -->
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playback_button_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soundEffect3SeekBar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

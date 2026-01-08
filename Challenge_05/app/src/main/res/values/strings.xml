@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Challenge_05</string>
+    <string name="btn_restart_text">Restart</string>
+    <string name="song_placeholder">Song Name Placeholder</string>
+    <string name="btn_play_pause_text">Play/Pause</string>
+    <string name="section_1_title_label">Section 1 Title</string>
+    <string name="section_2_title_label">Section 2 Title</string>
+    <string name="playback_button_label">Play</string>
+    <array name="music_options">
+        <item>Your Music Option 1</item>
+        <item>Your Music Option 2</item>
+    </array>
+
+    <array name="sound_effects">
+        <item>Your Sound Effect 1</item>
+        <item>Your Sound Effect 2</item>
+    </array>
+</resources>
